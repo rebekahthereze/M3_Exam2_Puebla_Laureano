@@ -1,0 +1,62 @@
+html {
+    background-color: #F5F9E9;
+    opacity: 50;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #515751;
+    border-radius: 20px;
+    margin: 100px 480px;
+    padding: 30px;
+}
+
+
+a.puebla {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: #596869;
+    text-decoration: none;
+}
+
+a.lau {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: #36453B;
+    text-decoration: none;
+}
+
+img {
+    height: 120px;
+}
+
+hr {
+    width: 300px;
+}
+
+/* The navigation bar */
+.select {
+    overflow: hidden;
+    background-color: #515751 ;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+  }
+  
+  .select a {
+    float: right;
+    color: #C2C1A5;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .select .current, .select a:hover {
+    background: #F5F9E9;
+    color: #515751;
+  }
+
+ 
