@@ -1,0 +1,101 @@
+html {
+    background-color: #EBDDD7;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: -10;
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
+    color: #811112;
+}
+.title-desc {
+    display: flex;
+    justify-content: center;
+    padding-top: -50px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 20px;
+    color: #473C38;
+}
+
+hr.divider {
+    margin: 100px;
+    border-top: 1px solid #811112;
+}
+.picker-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+.picker-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: #473C38;
+}
+
+.philosophers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.philo-names {
+    padding: 10px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #811112;
+    border-style: solid;
+    background-color: #EBDDD7;
+    font-family: 'Shrikhand', cursive;
+    color: #811112;
+}
+
+.philo-names:focus{
+    background-color: #811112;
+    color: #EBDDD7;
+}
+
+.philo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 200px;
+}
+
+.getQuote {
+    align-self: center;
+    border-radius: 50px;
+    margin: 60px;
+    width: 500px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #473C38;
+    background-color: #473C38;
+    font-size: 30px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: #EBDDD7;
+    visibility: hidden;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+    border: #811112;
+    border-width: 5px;
+    border-style: solid;
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+    color: #811112;
+    text-align: center;
+    visibility: hidden;
+}

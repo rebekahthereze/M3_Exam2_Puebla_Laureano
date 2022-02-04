@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+        <script>
+            let calCount = sessionStorage.getItem("calCount");
+            let foodList = 'Food Log <br /><br />';
+        </script>
+    </head>
+    <body onload="getCalCount()">
+        <div id="calCount-id" class="calCount"></div>
+        <hr>
+        <div id="food-input" class="food-input">
+            <label for="foodName">Name of Food</label>
+            <input type="text" id="foodName">
+
+            <label for="foodCal">Amount of Calories</label>
+            <input type="number" id="foodCal">
+            <button class="calculate" onclick="addFood()"> calculate</button>
+        </div>
+        <div class="food-list" id="food-list"></div>
+    </body>
+    <script src="main.js"></script>
+</html>

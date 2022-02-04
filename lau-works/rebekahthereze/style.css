@@ -1,0 +1,66 @@
+html {
+    background-image: url('assets/bg1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+#main_wrap {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1500px;
+}
+.greeting {
+    margin-top: 300px;
+    color: #b69b7d ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.rebthereze {
+    color: #393d3a;
+    margin-top: 0px; 
+    font-size: 100px;
+    line-height: 80px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.title {
+    color: #d4d6d5;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+.desc {
+    color: #b69b7d;
+    display: block;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border: 2px solid #b69b7d;
+    border-radius: 50px;
+    border-top-width: 50px;
+    padding: 50px;
+}
+
+.btm_img {
+    display: block; 
+    float: left; 
+    height: 250px; 
+}
+
+.btm_txt {
+    color: #393d3a;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+}
