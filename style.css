@@ -77,6 +77,10 @@ hr {
 .fas{
     font-size:100px;
 }
+
+.fab{
+    font-size:100px;
+}
 .works{
     margin-top:1em;
     display: flex;
