@@ -1,0 +1,109 @@
+body{
+    background-color: #dee2e6;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.quote-box{
+    width: 40%;
+    height: 45%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: #e9ecef;
+    border-style:solid;
+    border-color:#adb5bd ;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-message{
+    width: 60%;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size:1.2em;
+    text-align: center;
+}
+#quote-person{
+    font-size: 1em;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    text-decoration: underline;
+}
+#nba-logo{
+    border-radius: 0%;
+    border-style: none;
+    width:20% ;
+    filter: grayscale(0%);
+}
+
+img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #495057;
+    margin-bottom: 0.5em;
+    filter: grayscale(100%);
+
+}
+.addImgColor{
+    filter:grayscale(0%);
+}
+
+.nba-image{
+    display: flex;
+    flex-direction: column;
+    margin-left:1em;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0.5em;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-click {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.btn-click:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.btn-click:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.btn-click:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}

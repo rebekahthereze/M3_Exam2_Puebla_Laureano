@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+        </style>
+
+    </head>
+    <body>
+        <div class="title-container">
+            <h3 class="choose-title">choose your</h3>
+            <h1 class="title1">POKÉMON</h1>
+            <h1 class="title2">STARTER</h1>
+
+        </div>
+
+        <div class="starter-options">
+            <label for="starters">SELECT</label>
+            <select name="starters" id="starter" onchange="getPokemon(this)">
+                <option value="1" selected='selected'>Pikachu</option>
+                <option value="2" >Eevee</option>
+                <option value="3">Piplup</option>
+                <option value="4">Charmander</option>
+                <option value="5">Rowlet</option>
+                <option value="6">Froakie</option>
+                <option value="7">Turtwig</option>
+            </select>
+
+        <div class="containers" id='container-box'>
+            <img class = "pokemon-img" id='starter-img' src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" 
+            alt="Pokemon Image Here">
+            <h1 class="name" id='pokemon-name'>Pikachu</h1>
+                <div class = "pokemon-info">
+                    <div class='row'>
+                        <h1 style="margin-right: 0.5rem;">HP </h1><h1 id='hp'>35</h1>
+                    </div>
+
+                    <div>
+                        <h4>Type</h4> <h2 id='type'>Electric</h2>
+                    </div>
+                    <div>
+                        <div class="column">
+                            <h4>Attack</h4> <h2 id='attack'>55</h2>
+                            <h4>Special Attack</h4> <h2 id='special-attack'>50</h2>
+                        </div>
+                        <div class="column">
+                            <h4>Defense</h4> <h2 id='defense'>40</h2>
+                            <h4>Special Defense</h4> <h2 id='special-defense'>50</h2>
+                        </div>
+                        <h4>Speed</h4> <h2 id='speed'>90</h2>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+
+    <script src="request.js"></script>
+</html>

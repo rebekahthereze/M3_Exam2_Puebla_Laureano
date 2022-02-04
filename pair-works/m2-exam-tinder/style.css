@@ -1,0 +1,108 @@
+html {
+    background-color: #E4D8B4;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Fredoka One', cursive;
+    color: #9C4035;
+    font-size: 80px;
+}
+
+.desc {
+    font-family: 'Courgette', cursive;
+    /* color: #272324; */
+    color: #385D65;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: -60px;
+}
+.containers {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+    height: 1050px;
+}
+
+.list-container {
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.list-title {
+    font-family: 'Courgette', cursive;
+    color: #9C4035;
+}
+
+.list-img {
+    border-radius: 100%;
+    height: 60px;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.list {
+    font-family: 'Fredoka One', cursive;
+    color: #385D65;
+}
+
+.selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pet-container {
+    background-color: whitesmoke;
+    width: 600px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left:1%;
+}
+
+.pet {
+    height: 350px;
+    border-radius: 20px;
+    visibility: visible;
+}
+
+.petName {
+    font-family: 'Fredoka One', cursive;
+    color: #385D65;
+    font-size: 30px;
+    margin: 25px 0;
+}
+button {
+    font-size: 30px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: snow;
+    visibility: visible;
+}
+
+.heart {
+    background-color: #83B799;
+    border-color: #83B799;
+}
+
+.cross {
+    background-color: #E86F68;
+    border-color: #E86F68;
+}
